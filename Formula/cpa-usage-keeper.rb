@@ -2,19 +2,19 @@ class CpaUsageKeeper < Formula
   desc "Standalone CPA usage persistence and dashboard service"
   homepage "https://github.com/Willxup/cpa-usage-keeper"
   license "MIT"
-  version "1.14.1"
+  version "1.14.2"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/Willxup/cpa-usage-keeper/releases/download/v1.14.1/cpa-usage-keeper_v1.14.1_darwin_arm64.tar.gz"
-      sha256 "ac580436b0dea8917d7b48d2305589303a88a9d3d49ea10d4998dafda39ff758"
+      url "https://github.com/Willxup/cpa-usage-keeper/releases/download/v1.14.2/cpa-usage-keeper_v1.14.2_darwin_arm64.tar.gz"
+      sha256 "3c34e5180613738dcefe57014a7135396ad3df601c1ba36554b0827c8e5861ff"
     end
 
     on_intel do
-      url "https://github.com/Willxup/cpa-usage-keeper/releases/download/v1.14.1/cpa-usage-keeper_v1.14.1_darwin_amd64.tar.gz"
-      sha256 "eb53233bed27d3cf253382bca824027803d269883f8e7cdddd981f16a7b69ad8"
+      url "https://github.com/Willxup/cpa-usage-keeper/releases/download/v1.14.2/cpa-usage-keeper_v1.14.2_darwin_amd64.tar.gz"
+      sha256 "c94ae3e925c5780df9b8aff0dd4670068391f075cfd8e849f06baf98a9874fb2"
     end
   end
 
@@ -47,7 +47,7 @@ class CpaUsageKeeper < Formula
 
         #{etc}/cpa-usage-keeper.env
 
-      Required values include CPA_BASE_URL and CPA_MANAGEMENT_KEY.
+      Required values include CPA_BASE_URL and CPA_MANAGEMENT_KEY. LOGIN_PASSWORD is also required unless authentication is explicitly disabled.
 
       Start the service with:
 
