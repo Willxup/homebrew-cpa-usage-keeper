@@ -2,19 +2,19 @@ class CpaUsageKeeper < Formula
   desc "Standalone CPA usage persistence and dashboard service"
   homepage "https://github.com/Willxup/cpa-usage-keeper"
   license "MIT"
-  version "1.14.4"
+  version "1.14.5"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/Willxup/cpa-usage-keeper/releases/download/v1.14.4/cpa-usage-keeper_v1.14.4_darwin_arm64.tar.gz"
-      sha256 "12a39a80a7b51703b6a598c0ec6cc20263b564c219cc49837a800bd120571ee5"
+      url "https://github.com/Willxup/cpa-usage-keeper/releases/download/v1.14.5/cpa-usage-keeper_v1.14.5_darwin_arm64.tar.gz"
+      sha256 "249015a823aeacd632a862df25471186a6c20da6dd5dc7b4eba3250ae0bccb5f"
     end
 
     on_intel do
-      url "https://github.com/Willxup/cpa-usage-keeper/releases/download/v1.14.4/cpa-usage-keeper_v1.14.4_darwin_amd64.tar.gz"
-      sha256 "81407c3030679128d7f6920eb47aa5f2d16f898731038a108456f3537ae786bc"
+      url "https://github.com/Willxup/cpa-usage-keeper/releases/download/v1.14.5/cpa-usage-keeper_v1.14.5_darwin_amd64.tar.gz"
+      sha256 "63b3ce11da3e0a5ebfd803aa3f46a7b3550786ac3d238b3cf72caf74480b8ae7"
     end
   end
 
